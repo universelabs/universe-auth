@@ -20,14 +20,18 @@
 
 <br>
 
-## Node.js Authentication Server Boilerplate
+## Simple Auth Server
+
+Simple Auth Server is a quick Node.js authentication boilerplate intended to get you up and running with a simple `npm install` command.
+
+Note: This boilerplate is based from Stephen Grider's [Advanced React and Redux](https://www.udemy.com/react-redux-tutorial/learn/v4/overview) course.
 
 ## Getting started
 
 Get started by cloning the repository to your local machine
 
 ```
-$ git clone git@github.com:guylepage3/auth-server.git
+$ git clone git@github.com:guylepage3/simple-auth-server.git
 ```
 
 Start MongoDB server
