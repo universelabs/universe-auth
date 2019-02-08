@@ -1,8 +1,4 @@
 <p align="center">
-  <br>
-  <a href="/">
-    <img src="/" width=72 height=72>
-  </a>
 
   <h3 align="center">Server Authentication Boilerplate</h3>
 
