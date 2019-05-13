@@ -1,14 +1,14 @@
 const express = require('express');
+const http = require("http");
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
-const mongoose = require('mongoose');
-const http = require("http");
 const router = require('./router');
+const mongoose = require('mongoose');
 
 const app = express();
 
 // DB Setup
-mongoose.connect('mongodb://localhost/boilerplate_db')
+mongoose.connect("mongodb://localhost:27017/auth", { useNewUrlParser: true })
   .then(() => console.log('MongoDB Connected.....'))
   .catch(err => console.log(err));
 
