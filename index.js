@@ -7,14 +7,27 @@ const mongoose = require("mongoose");
 const path = require("path");
 
 const isProduction = process.env.NODE_ENV === "production";
-
+const prodPW = process.env.MONGODB_UU;
 const app = express();
 
 // DB Setup
-mongoose
-  .connect("mongodb://localhost:27017/auth", { useNewUrlParser: true })
-  .then(() => console.log("MongoDB Connected....."))
-  .catch(err => console.log(err));
+if (isProduction) {
+  // production db
+  mongoose
+    .connect(
+      "mongodb+srv://uuser_33:" +
+        prodPW +
+        "@cluster0-nvqv2.gcp.mongodb.net/auth?retryWrites=true",
+      { useNewUrlParser: true }
+    )
+    .then(() => console.log("MongoDB Prod Connected....."))
+    .catch(err => console.log(err));
+} else {
+  mongoose
+    .connect("mongodb://localhost:27017/auth", { useNewUrlParser: true })
+    .then(() => console.log("MongoDB Connected....."))
+    .catch(err => console.log(err));
+}
 
 // App Setup
 app.use(morgan("combined"));
