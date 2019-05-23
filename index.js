@@ -7,7 +7,10 @@ const mongoose = require("mongoose");
 const path = require("path");
 
 const isProduction = process.env.NODE_ENV === "production";
-const prodPW = process.env.MONGODB_UU;
+const prodUser = process.env.DB_UUID;
+const prodPW = process.env.DB_PW;
+const prodServer = process.env.DB_URI;
+
 const app = express();
 
 // DB Setup
@@ -15,9 +18,12 @@ if (isProduction) {
   // production db
   mongoose
     .connect(
-      "mongodb+srv://uuser_33:" +
+      "mongodb+srv://" +
+        prodUser +
+        ":" +
         prodPW +
-        "@cluster0-nvqv2.gcp.mongodb.net/auth?retryWrites=true",
+        prodServer +
+        "?retryWrites=true",
       { useNewUrlParser: true }
     )
     .then(() => console.log("MongoDB Prod Connected....."))
@@ -34,7 +40,6 @@ app.use(morgan("combined"));
 app.use(bodyParser.json({ type: "*/*" }));
 router(app);
 
-// Server Setup
 const PORT = process.env.PORT || 5000;
 const server = http.createServer(app);
 server.listen(PORT, function() {
