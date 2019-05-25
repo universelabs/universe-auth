@@ -71,3 +71,5 @@ Or for global access, run
 $ sudo chown -r /data/db
 # Enter your password
 ```
+
+
