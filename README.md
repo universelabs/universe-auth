@@ -51,7 +51,7 @@
 
 [![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
 
-[![universe-auth version](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse-auth%2Fblob%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe-auth/blob/master/package.json)
+[![universe-auth version](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse-auth%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe-auth/blob/master/package.json)
 [![dependencies status](https://img.shields.io/david/universelabs/universe-auth.svg?label=dependencies&colorA=%23212121)](https://david-dm.org/universelabs/universe-auth)
 [![devDependencies status](https://img.shields.io/david/dev/universelabs/universe-auth.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/universe-auth?type=dev)
 
