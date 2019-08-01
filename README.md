@@ -37,6 +37,7 @@
 
 <br/>
 
+
 ## Table of contents
 
 - [Status](#status)
@@ -47,13 +48,14 @@
 - [Maintainers](#maintainers)
 - [License](#license)
 
+
 ## Status
 
 [![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE)
-
 [![universe-auth version](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse-auth%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe-auth/blob/master/package.json)
 [![dependencies status](https://img.shields.io/david/universelabs/universe-auth.svg?label=dependencies&colorA=%23212121)](https://david-dm.org/universelabs/universe-auth)
 [![devDependencies status](https://img.shields.io/david/dev/universelabs/universe-auth.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/universe-auth?type=dev)
+
 
 ## Getting started
 
@@ -61,6 +63,25 @@ Get started by cloning the repository to your local machine
 
 ```
 $ git clone git@github.com:universelabs/universe-auth.git
+```
+
+Start MongoDB server
+
+```
+$ mongod
+```
+
+Start the backend and client side server as well as connect to the MongoDB database via Mongoose
+
+```
+$ npm run dev
+```
+
+You should see the following server running
+
+```
+Server running on localhost:5000......
+MongoDB Connected.....
 ```
 
 Install [`npm`](https://www.npmjs.com/get-npm). `npm` is installed and comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/)
@@ -102,6 +123,30 @@ Server running on localhost:5000......
 MongoDB Connected.....
 ```
 
+
+## Mongodb Installation & Setup
+
+Get system username by running
+
+```
+$ whoami
+```
+
+Set database and directory permissions for you by running the command
+
+```
+$ sudo chown -Rv <username> /data/db
+# Enter your password
+```
+
+Or for global access, run
+
+```
+$ sudo chown -r /data/db
+# Enter your password
+```
+
+
 ## Contributing
 
 Please read through our [contributing guidelines](https://github.com/universelabs/universe/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
@@ -126,6 +171,7 @@ Get updates on Universe's development and chat with the project maintainers and 
 - Follow [@universelabs](https://twitter.com/universelabs) on Twitter.
 - Join the official Universe [Slack](https://join.slack.com/t/universelabs/shared_invite/enQtNDQ0MjY3NDI5MTkwLTIzMWQ4M2U3MGQ3ZDY5MzM5MGQ5ZDM1MDZjNTgwNGI5NDdiNDY4ZDQyNWI2NjEzZmU3NzVmOTYwYzEzYzc1ZDE).
 
+
 ## Maintainers
 
 **Guy Lepage**
@@ -142,6 +188,7 @@ Get updates on Universe's development and chat with the project maintainers and 
 
 - <https://twitter.com/dantrevino>
 - <https://github.com/dantrevino>
+
 
 ## License
 
