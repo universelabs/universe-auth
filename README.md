@@ -65,25 +65,6 @@ Get started by cloning the repository to your local machine
 $ git clone git@github.com:universelabs/universe-auth.git
 ```
 
-Start MongoDB server
-
-```
-$ mongod
-```
-
-Start the backend and client side server as well as connect to the MongoDB database via Mongoose
-
-```
-$ npm run dev
-```
-
-You should see the following server running
-
-```
-Server running on localhost:5000......
-MongoDB Connected.....
-```
-
 Install [`npm`](https://www.npmjs.com/get-npm). `npm` is installed and comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/)
 
 ```
@@ -110,10 +91,16 @@ Add dependencies for the [Express.js](https://expressjs.com/) server
 $ npm install
 ```
 
-Start the authentication server
+Start MongoDB server
 
 ```
-$ npm start
+$ mongod
+```
+
+Start the backend and client side server as well as connect to the MongoDB database via Mongoose
+
+```
+$ npm run dev
 ```
 
 You should see the following server running
