@@ -65,27 +65,7 @@ Get started by cloning the repository to your local machine
 $ git clone git@github.com:universelabs/universe-auth.git
 ```
 
-Install [`npm`](https://www.npmjs.com/get-npm). `npm` is installed and comes bundled with [Node.js](https://nodejs.org/en/download/package-manager/)
-
-```
-$ brew install node
-```
-
-Next, you will need a `config/dev.js` file to hold the environment variable for `universe-auth` server. First create the file by running
-
-```
-$ touch config/dev.js
-```
-
-Add the localhost address and port to the `config/dev.js`.
-
-```
-module.exports = {
-  authServer: 'https://localhost:5000'
-};
-```
-
-Add dependencies for the [Express.js](https://expressjs.com/) server
+Install dependencies
 
 ```
 $ npm install
