@@ -37,6 +37,8 @@
 
 <br/>
 
+This project was bootstrapped with [Guy Lepage's Simple Auth Server Boilerplate](https://github.com/guylepage3/simple-auth-server).
+
 
 ## Table of contents
 
@@ -156,8 +158,6 @@ Get updates on Universe's development and chat with the project maintainers and 
 
 By contributing your code, you agree to license your contribution under the [
 MIT License](LICENSE).
-
-This project was bootstrapped with [Guy Lepage's](https://github.com/guylepage3) [Simple Auth Server](https://github.com/guylepage3/simple-auth-server).
 
 <div align="right">
   <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
