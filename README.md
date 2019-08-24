@@ -1,5 +1,5 @@
 <div align="center">
-  <h3>Universe Authentication Server [beta]</h3>
+  <h3>Universe Authentication Server</h3>
   <p>
     Universe Auth Server is a server side Node.js authentication server.
     <br/>
