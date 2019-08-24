@@ -151,11 +151,6 @@ Get updates on Universe's development and chat with the project maintainers and 
 - <https://twitter.com/modkaffes>
 - <https://github.com/modkaffes>
 
-**Dan Trevino**
-
-- <https://twitter.com/dantrevino>
-- <https://github.com/dantrevino>
-
 
 ## License
 
