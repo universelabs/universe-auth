@@ -146,10 +146,10 @@ Get updates on Universe's development and chat with the project maintainers and 
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
 
-**Modestos Kaffes**
+**Jacob Gadakian**
 
-- <https://twitter.com/modkaffes>
-- <https://github.com/modkaffes>
+- <https://twitter.com/gadikian>
+- <https://github.com/faddat>
 
 
 ## License
