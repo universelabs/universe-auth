@@ -20,7 +20,7 @@
       Medium
     </a>
     &middot;
-    <a href="https://universelabs-slackin.herokuapp.com/">
+    <a href="https://slack.universe.engineering">
       Slack
     </a>
     <br/>
@@ -51,7 +51,7 @@
 
 ## Status
 
-[![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://universelabs-slackin.herokuapp.com/)
+[![Slack](https://img.shields.io/badge/Community-Join_the_Slack!-purple.svg?colorA=212121&colorB=3f46ad)](https://slack.universe.engineering)
 [![universe-auth version](https://img.shields.io/badge/dynamic/json.svg?label=Version&url=https%3A%2F%2Fraw.githubusercontent.com%2Funiverselabs%2Funiverse-auth%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/universelabs/universe-auth/blob/master/package.json)
 [![dependencies status](https://img.shields.io/david/universelabs/universe-auth.svg?label=dependencies&colorA=%23212121)](https://david-dm.org/universelabs/universe-auth)
 [![devDependencies status](https://img.shields.io/david/dev/universelabs/universe-auth.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/universelabs/universe-auth?type=dev)
@@ -136,18 +136,16 @@ Get updates on Universe's development and chat with the project maintainers and 
 - Subscribe to the [Universe Newsletter](http://universe.engineering/subscribe)
 - [Star the repo](https://github.com/universelabs/universe/stargazers)
 - Follow [@universelabs](https://twitter.com/universelabs) on Twitter.
-- Join the official Universe [Slack](https://universelabs-slackin.herokuapp.com/).
+- Join the official Universe [Slack](https://slack.universe.engineering).
 
 
 ## Maintainers
 
 **Guy Lepage**
-
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
 
 **Jacob Gadakian**
-
 - <https://twitter.com/gadikian>
 - <https://github.com/faddat>
 
